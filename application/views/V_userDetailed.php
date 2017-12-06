@@ -2,28 +2,21 @@
     <form class="form-horizontal">
         <div class="form-group">
             <label class="col-sm-2 control-label" maxlength="20">姓名</label>
-            <div class="col-sm-10">
-                <input type="text" class="form-control" >
+            <div class="col-sm-2">
+                <input type="text" class="form-control">
             </div>
-        </div>
-        <div class="form-group">
             <label class="col-sm-2 control-label" maxlength="20">性別</label>
-            <div class="col-sm-10">
+            <div class="col-sm-2">
                 <label class="radio-inline">
-                    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">男
                 </label>
                 <label class="radio-inline">
-                    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">女
                 </label>
             </div>
-        </div>
-
-
-
-        <div class="form-group">
             <label class="col-sm-2 control-label">出生年月日</label>
-            <div class="col-sm-10">
-                <input type="text" class="form-control" maxlength="20">
+            <div class="col-sm-2">
+                <input type="text" class="form-control datainput" maxlength="20">
             </div>
         </div>
 
@@ -64,19 +57,53 @@
             </div>
         </div>
         <div class="form-group">
-        <label class="col-sm-2 control-label">連絡電話1</label>
-            <div class="col-sm-10">
+            <label class="col-sm-2 control-label">聯絡電話1</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" maxlength="20">
+            </div>
+            <label class="col-sm-2 control-label">聯絡電話2</label>
+            <div class="col-sm-4">
                 <input type="text" class="form-control" maxlength="20">
             </div>
         </div>
         <div class="form-group">
-            <label class="col-sm-2 control-label">連絡電話2</label>
+            <label class="col-sm-2 control-label">電子郵件地址</label>
             <div class="col-sm-10">
-                <input type="text" class="form-control" maxlength="20">
+                <input type="text" class="form-control" maxlength="100">
             </div>
         </div>
 
-        
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Line ID</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" maxlength="50">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">聯絡地址</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" maxlength="150">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">職業類別</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" maxlength="150">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-sm-2 control-label">服務單位</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" maxlength="20">
+            </div>
+            <label class="col-sm-2 control-label">職稱</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" maxlength="20">
+            </div>
+        </div>
 
         <div class="form-group">
             <div class="col-sm-offset-2 col-sm-10">

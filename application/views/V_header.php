@@ -8,8 +8,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>亞東技術學院 校友會</title>
-    <link href="/lrs/public/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/lrs/public/css/layout.css" rel="stylesheet">
+    <link href="/Alumni/public/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/Alumni/public/css/jquery-ui.min.css" rel="stylesheet">
+    <link href="/Alumni/public/css/jquery-ui.structure.min.css" rel="stylesheet">
+    <link href="/Alumni/public/css/jquery-ui.theme.min.css" rel="stylesheet">
+    <link href="/Alumni/public/css/layout.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
